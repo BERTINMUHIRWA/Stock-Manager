@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Community Budget',
+  title: 'Boyz For Life',
   description: 'Plan a shared budget, record purchases and always know the remaining balance.',
 };
 
