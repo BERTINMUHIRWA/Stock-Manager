@@ -70,8 +70,8 @@ export default function Main({ user, onLogout }) {
       <header className="topbar">
         <div className="topbar-inner">
           <div className="brand">
-            <span className="brand-mark" aria-hidden="true">CB</span>
-            Community Budget
+                        <span className="brand-mark" aria-hidden="true">BFL</span>
+            BFL Manager
           </div>
           <div className="who">
             <span>

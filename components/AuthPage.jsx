@@ -30,8 +30,8 @@ export default function AuthPage({ onAuth }) {
   return (
     <div className="auth">
       <form className="auth-card" onSubmit={submit}>
-        <div className="brand-mark big" aria-hidden="true">CB</div>
-        <h1>Community Budget</h1>
+                <div className="brand-mark big" aria-hidden="true">BFL</div>
+                <h1>BFL Manager</h1>
         <p className="muted">
           {isRegister ? 'Create your account to join the budget.' : 'Log in to see the budget and record purchases.'}
         </p>

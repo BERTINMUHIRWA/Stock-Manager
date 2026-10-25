@@ -44,7 +44,7 @@ button, input, select { font: inherit; color: inherit; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.1rem; }
 .brand-mark {
   display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 10px;
-  background: #f3c969; color: var(--brand-dark); font-weight: 800; font-size: 0.85rem; letter-spacing: 0.5px;
+   background: #f3c969; color: var(--brand-dark); font-weight: 800; font-size: 0.7rem; letter-spacing: 0;
 }
 .brand-mark.big { width: 54px; height: 54px; border-radius: 16px; font-size: 1.1rem; background: var(--brand); color: #fff; margin-bottom: 12px; }
 .who { display: flex; align-items: center; gap: 12px; font-size: 0.9rem; }
