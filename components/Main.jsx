@@ -71,7 +71,7 @@ export default function Main({ user, onLogout }) {
         <div className="topbar-inner">
           <div className="brand">
                         <span className="brand-mark" aria-hidden="true">BFL</span>
-            BFL Manager
+            Boyz For Life 
           </div>
           <div className="who">
             <span>
