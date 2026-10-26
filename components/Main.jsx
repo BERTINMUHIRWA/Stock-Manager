@@ -8,6 +8,7 @@ import ItemForm from './ItemForm';
 import ItemsTable from './ItemsTable';
 import HistoryTable from './HistoryTable';
 import MembersPanel from './MembersPanel';
+import Announcements from './Announcements';
 
 const TABS = [
   { id: 'overview', label: 'Overview' },
@@ -114,6 +115,7 @@ export default function Main({ user, onLogout }) {
             {tab === 'overview' && (
               <>
                 <BalanceCards summary={data.summary} />
+                                   <Announcements isAdmin={isAdmin} notify={notify} />
                 <div className="grid-2">
                   <PurchaseForm
                     items={data.items}
